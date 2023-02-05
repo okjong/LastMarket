@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CatchActivity"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/cookierunbold"
+            android:text="상품 등록"/>
+    </com.google.android.material.appbar.MaterialToolbar>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="387dp"
+        android:src="@drawable/mainactivitypng2" />
+
+    <Button
+        android:id="@+id/update_goods_btn"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cookierunregular"
+        android:text="내상품 올리기"/>
+    <Button
+        android:id="@+id/update_banner_btn2"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cookierunregular"
+        android:text="내광고배너 올리기"/>
+
+
+</LinearLayout>

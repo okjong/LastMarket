@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "855305925818",
+    "project_id": "marketjeilpharm",
+    "storage_bucket": "marketjeilpharm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855305925818:android:ab20f96e4c5ee0adefbe83",
+        "android_client_info": {
+          "package_name": "com.example.lastmarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855305925818-t5k5f65g2qa5o1aiajrssjhhmls8cn51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4VccFnPTu20-U9YdpFaijwtBsAgCEgtw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855305925818-t5k5f65g2qa5o1aiajrssjhhmls8cn51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855305925818:android:8fd5f1b9a27dc90befbe83",
+        "android_client_info": {
+          "package_name": "com.example.market"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855305925818-t5k5f65g2qa5o1aiajrssjhhmls8cn51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4VccFnPTu20-U9YdpFaijwtBsAgCEgtw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855305925818-t5k5f65g2qa5o1aiajrssjhhmls8cn51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

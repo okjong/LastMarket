@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    >
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@color/cardview_shadow_start_color"/>
+    <TextView
+        android:layout_marginTop="8dp"
+        android:id="@+id/tv01"
+        android:fontFamily="@font/maplestory_bold"
+        android:layout_below="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:layout_marginTop="4dp"
+        android:id="@+id/tv02"
+        android:fontFamily="@font/maplestory_lignt"
+        android:layout_below="@+id/tv01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+       />
+    <TextView
+        android:id="@+id/tv03"
+        android:layout_below="@+id/tv02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        />
+
+
+
+</RelativeLayout>
