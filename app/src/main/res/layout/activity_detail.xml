@@ -71,9 +71,8 @@
                  android:id="@+id/detail_userId"/>-->
 
         </LinearLayout>
-
-
     </androidx.core.widget.NestedScrollView>
+
     <RelativeLayout
         android:layout_weight="1"
         android:layout_width="match_parent"
@@ -83,7 +82,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/cookierunbold"
-            android:text="장바구니 담기"/>
+            android:text="장바구니 담기"
+            android:backgroundTint="@color/brand"/>
 
     </RelativeLayout>
 

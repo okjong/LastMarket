@@ -10,7 +10,7 @@
     <com.google.android.material.appbar.MaterialToolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/purple_500"
+        android:background="@color/brand"
         >
         <TextView
             android:layout_width="wrap_content"
@@ -34,25 +34,25 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:fontFamily="@font/cookierunregular"
-            android:textColor="@color/purple_500"
+            android:textColor="@color/black"
             android:textSize="12sp"
             android:text="상품이름"/>
 
         <EditText
             android:padding="4dp"
-            android:fontFamily="@font/cookierunregular"
             android:id="@+id/p_name01"
             android:layout_width="150dp"
             android:layout_height="30dp"
             android:hint="입력"
-            android:background="@drawable/login_bg"/>
+            android:background="@drawable/login_bg"
+            android:fontFamily="@font/cookierunregular"
+            />
 
 
         <TextView
             android:layout_marginBottom="8dp"
-            android:fontFamily="@font/cookierunregular"
             android:layout_marginTop="10dp"
-            android:textColor="@color/purple_500"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
@@ -60,20 +60,22 @@
             android:text="상품가격"/>
         <EditText
             android:padding="4dp"
-            android:fontFamily="@font/cookierunregular"
             android:id="@+id/p_price01"
             android:layout_width="150dp"
             android:layout_height="30dp"
             android:hint="입력"
-            android:background="@drawable/login_bg"/>
+            android:background="@drawable/login_bg"
+            android:fontFamily="@font/cookierunregular"
+            />
         <Button
             android:layout_marginTop="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="상품이미지 선택"
             android:layout_gravity="left"
-            android:fontFamily="@font/cookierunregular"
-            android:onClick="clickSelectImage"/>
+            android:fontFamily="@font/cookierunbold"
+            android:onClick="clickSelectImage"
+            android:backgroundTint="@color/brand"/>
         <TextView
             android:id="@+id/userNickName"
             android:hint="사용자정보"
@@ -95,6 +97,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/cookierunregular"
             android:text="게시하기"
+            android:backgroundTint="@color/brand"
             />
 
     </LinearLayout>

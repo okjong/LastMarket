@@ -12,6 +12,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.example.lastmarket.G;
 import com.example.lastmarket.R;
 
 public class DetailActivity extends AppCompatActivity {
@@ -75,14 +76,14 @@ public class DetailActivity extends AppCompatActivity {
 
         if(id==R.id.detail_cart){
 
-            Intent intent= new Intent(this,Cart_Activity.class);
+            Intent intent= new Intent(this,CartActivity.class);
             startActivity(intent);
 
         }
         if(id==R.id.detail_chat){
 
             if(userId.equals(G.userVo.id)){
-                Intent intent= new Intent(this,ChattingList.class);
+                Intent intent= new Intent(this,ChattingList_Activity.class);
                 startActivity(intent);
             }else{
                 Intent intent= new Intent(this,ChattingActivity.class);

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="60dp"
+android:layout_margin="16dp"
+android:backgroundTint="@color/white"
+app:strokeColor="@color/purple_500"
+app:cardCornerRadius="16dp"
+app:strokeWidth="2dp"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_chatting_list_item"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/maplestory_bold"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:text="채팅방"/>
+
+</RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

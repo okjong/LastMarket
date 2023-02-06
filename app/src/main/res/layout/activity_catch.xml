@@ -10,7 +10,7 @@
     <com.google.android.material.appbar.MaterialToolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/purple_500"
+        android:background="@color/brand"
         >
         <TextView
             android:layout_width="wrap_content"
@@ -26,7 +26,8 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="387dp"
-        android:src="@drawable/mainactivitypng2" />
+        android:src="@drawable/cart"
+        android:adjustViewBounds="true"/>
 
     <Button
         android:id="@+id/update_goods_btn"
@@ -36,7 +37,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/cookierunregular"
-        android:text="내상품 올리기"/>
+        android:text="내상품 올리기"
+        android:backgroundTint="@color/brand"/>
     <Button
         android:id="@+id/update_banner_btn2"
         android:layout_marginLeft="4dp"
@@ -44,7 +46,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/cookierunregular"
-        android:text="내광고배너 올리기"/>
+        android:text="내광고배너 올리기"
+        android:backgroundTint="@color/brand"/>
 
 
 </LinearLayout>
